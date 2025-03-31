@@ -11,8 +11,8 @@ An encrypted journal application built using Python, Tkinter, SQLite, and Fernet
 - **Tagging System**: Users can tag journal entries for better organization.
 - **Entry Management**: Save, delete, and view entries with a simple interface.
 - **Keyboard Shortcuts**:
-  - `Ctrl + S` → Save entry
-  - `Ctrl + Backspace` → Delete selected entry
+  - `Ctrl + s` → Save entry
+  - `Ctrl + d` → Delete selected entry
 
 ## Installation
 
