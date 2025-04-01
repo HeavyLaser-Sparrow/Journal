@@ -37,3 +37,8 @@ You can install the elf binary, and run ./journal in the directory you want your
 If you want to "lock" your journal, you can just move the key2.key file one step up out of the journal directory,
 and then move it back in when you want to use it.
 The code will break if it runs without the key2.key file (makes another key2.key file in the journal directory), but you can fix it by just deleting the new key2.key file in the journal directory and moving in the original key2.key file.
+
+### Future Features
+
+I have plans to fix the creation of a new key2.key file if the original key2.key file is missing, but I am not sure if the
+key2.key file appearing even if you have one is a feature or a bug.
